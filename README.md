@@ -22,11 +22,13 @@ Die Summen beziehen sich auf Verkaufspreise. Porto und Gewinn werden nicht separ
 
 Neue APK-Versionen erscheinen unter [Releases](https://github.com/nnifFlame/verkaufsbuch/releases). Eine neue Version wird über die bestehende App installiert. Dafür bleiben App-ID und Signaturschlüssel unverändert.
 
-Version 1.0 enthält noch keine automatische Updateprüfung. Die Datei [version.json](version.json) bereitet die Versionsinformationen für eine spätere Updatefunktion vor. Die Veröffentlichung dieser Datei allein fügt der bereits installierten App keine Updatefunktion hinzu.
+Ab Version 1.1 prüft die App beim Start automatisch auf neue Versionen. Über „Nach Updates suchen“ ist die Prüfung auch manuell möglich. Neue Versionen werden mit Neuerungen und einem Download-Button angezeigt. Der Download öffnet sich im Browser; anschließend wird die Installation der APK in Android bestätigt.
+
+Version 1.1 muss einmal manuell über Version 1.0 installiert werden. Die bestehende App dabei nicht deinstallieren. Die Updateprüfung lädt nur [Versionsinformationen](version.json) von GitHub; Verkäufe werden nicht hochgeladen.
 
 ## Testversion und Daten
 
-Version 1.0 ist zum Ausprobieren vorgesehen. Berechnungslogik, APK-Signatur und Paketaufbau wurden geprüft. Ein Test auf einem Android-Gerät oder im Emulator steht noch aus.
+Version 1.1 ist zum Ausprobieren vorgesehen. 32 Berechnungsprüfungen und 28 Updateprüfungen bestehen. APK-Signatur, identischer Signaturschlüssel zur Vorversion und Paketaufbau wurden geprüft. Ein Test auf einem Android-Gerät oder im Emulator steht noch aus.
 
 Es gibt derzeit keinen Datenexport und keine Cloud-Synchronisierung. Beim Deinstallieren oder Löschen der App-Daten gehen die gespeicherten Verkäufe verloren.
 
