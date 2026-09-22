@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "applicationId": "at.personal.verkaufsbuch",
+  "versionCode": 1,
+  "versionName": "1.0",
+  "minSdkVersion": 26,
+  "apkUrl": "https://github.com/nnifFlame/verkaufsbuch/releases/download/v1.0/Verkaufsbuch-Android.apk",
+  "sha256": "d5249ba3540b8bc9e8857d331d5d40483c63d0e08c5c03e2633fc06274412994",
+  "releaseNotes": [
+    "Verkäufe mit Artikel, Preis, Datum und Notiz erfassen",
+    "Versand oder Abholung auswählen",
+    "Separate Jahreslisten mit Versand-, Abholungs- und Gesamtsumme",
+    "Verkäufe bearbeiten, löschen und lokal speichern"
+  ]
+}
