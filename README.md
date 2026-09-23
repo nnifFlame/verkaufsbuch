@@ -14,6 +14,8 @@ Voraussetzung: Android 8.0 oder neuer. Die APK auf dem Android-Gerät öffnen un
 - Versand oder Abholung auswählen.
 - Für jedes Jahr Versand Gesamt, Abholung Gesamt und Insgesamt anzeigen.
 - Verkäufe bearbeiten und nach Bestätigung löschen.
+- Stückzahlen erfassen und zwischen Gesamtpreis und Preis pro Stück wechseln; der Gesamtbetrag wird sofort berechnet.
+- Unter „Analysen“ fünf Diagramme ansehen: Monatsumsätze, verkaufte Stück pro Monat, Versand/Abholung nach Umsatz, Jahresvergleich und Top 5 Einzelverkäufe.
 - Offline arbeiten; Verkäufe bleiben lokal auf dem Gerät.
 
 Die Summen beziehen sich auf Verkaufspreise. Porto und Gewinn werden nicht separat berechnet. Es gibt keine Verbindung zu Willhaben und keinen automatischen Import.
@@ -28,7 +30,7 @@ Version 1.1 muss einmal manuell über Version 1.0 installiert werden. Die besteh
 
 ## Testversion und Daten
 
-Version 1.1 ist zum Ausprobieren vorgesehen. 32 Berechnungsprüfungen und 28 Updateprüfungen bestehen. APK-Signatur, identischer Signaturschlüssel zur Vorversion und Paketaufbau wurden geprüft. Ein Test auf einem Android-Gerät oder im Emulator steht noch aus.
+Version 1.2 enthält Analysen und Stückzahlen. Vorhandene Einträge werden mit Stückzahl 1 und Gesamtpreis übernommen. 99 automatisierte Berechnungs-, Analyse- und Updateprüfungen bestehen. Die SQL-Datenübernahme wurde mit SQLite geprüft. APK-Signatur und identischer Signaturschlüssel zur Vorversion wurden geprüft. Ein Test der Oberfläche und Installation auf einem Android-Gerät oder im Emulator steht noch aus.
 
 Es gibt derzeit keinen Datenexport und keine Cloud-Synchronisierung. Beim Deinstallieren oder Löschen der App-Daten gehen die gespeicherten Verkäufe verloren.
 

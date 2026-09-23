@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "applicationId": "at.personal.verkaufsbuch",
-  "versionCode": 2,
-  "versionName": "1.1",
+  "versionCode": 3,
+  "versionName": "1.2",
   "minSdkVersion": 26,
-  "apkUrl": "https://github.com/nnifFlame/verkaufsbuch/releases/download/v1.1/Verkaufsbuch-Android.apk",
-  "sha256": "4e9f1a57ae937fb188f0989254f8bd05fc964bb25b02d5893380a2ebea94fe41",
+  "apkUrl": "https://github.com/nnifFlame/verkaufsbuch/releases/download/v1.2/Verkaufsbuch-Android.apk",
+  "sha256": "a7efac2c12b1d842b08b93007e6d9e3756f5f5955e97772ee520efed1da37967",
   "releaseNotes": [
-    "Automatische Updateprüfung beim App-Start",
-    "Button Nach Updates suchen mit Rückmeldung",
-    "Neue Versionen mit Neuerungen und Download-Link anzeigen",
-    "Bestehende Verkäufe bleiben bei der Aktualisierung erhalten"
+    "Analysen mit fünf Diagrammen und Jahresauswahl",
+    "Stückzahl und Schalter Preis pro Stück",
+    "Sofortige Vorschau des Gesamtbetrags",
+    "Bestehende Verkäufe werden mit Stückzahl 1 übernommen"
   ]
 }
