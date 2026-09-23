@@ -28,10 +28,11 @@ Ab Version 1.1 prüft die App beim Start automatisch auf neue Versionen. Über �
 
 Version 1.1 muss einmal manuell über Version 1.0 installiert werden. Die bestehende App dabei nicht deinstallieren. Die Updateprüfung lädt nur [Versionsinformationen](version.json) von GitHub; Verkäufe werden nicht hochgeladen.
 
-## Testversion und Daten
+## Prüfung und Daten
 
-Version 1.2 enthält Analysen und Stückzahlen. Vorhandene Einträge werden mit Stückzahl 1 und Gesamtpreis übernommen. 99 automatisierte Berechnungs-, Analyse- und Updateprüfungen bestehen. Die SQL-Datenübernahme wurde mit SQLite geprüft. APK-Signatur und identischer Signaturschlüssel zur Vorversion wurden geprüft. Ein Test der Oberfläche und Installation auf einem Android-Gerät oder im Emulator steht noch aus.
+Version 1.2 enthält Analysen und Stückzahlen. Vorhandene Einträge werden mit Stückzahl 1 und Gesamtpreis übernommen. 99 automatisierte Berechnungs-, Analyse- und Updateprüfungen bestehen. Die SQL-Datenübernahme wurde mit SQLite geprüft. APK-Signatur und identischer Signaturschlüssel zur Vorversion wurden geprüft. Die Update-Erkennung wurde am 23.09.2026 von einem Nutzer auf einem Android-Handy erfolgreich getestet. Ein vollständiger Gerätetest aller Funktionen steht noch aus.
 
 Es gibt derzeit keinen Datenexport und keine Cloud-Synchronisierung. Beim Deinstallieren oder Löschen der App-Daten gehen die gespeicherten Verkäufe verloren.
 
 Dieses Repository dient zur Verteilung der fertigen App und ihrer Versionsinformationen.
+
