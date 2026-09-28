@@ -18,6 +18,9 @@ Voraussetzung: Android 8.0 oder neuer. Die APK auf dem Android-Gerät öffnen un
 - Unter „Analysen“ sieben Diagramme ansehen: Monatsumsätze, verkaufte Stück pro Monat, Versand/Abholung nach Umsatz, Jahresvergleich, Top 5 Einzelverkäufe sowie Anzahl Verkäufe und Umsatz je Verkaufsseite.
 - Eigene Verkaufsseiten ohne vorgegebene Anbieter anlegen und wieder auswählen.
 - Bis zu 10 Bilder pro Verkauf als lokale JPEG-Kopien hinzufügen, ansehen und entfernen (Quelldatei bis 25 MB, lange Kante bis 1600 Pixel). Originalbilder bleiben unverändert.
+- Blacklist mit Benutzernamen, Problemmarkierung, Notizen und bis zu 10 Fotos pro Nutzer verwalten.
+- Blacklist-Nutzer optional Verkäufen zuordnen; gespeicherte Hinweise direkt im Verkauf sehen.
+- Bei Bildern für Verkäufe und Blacklist zwischen Kamera und Fotobibliothek wählen.
 - Offline arbeiten; Verkäufe bleiben lokal auf dem Gerät.
 
 Die Summen beziehen sich auf Verkaufspreise. Porto und Gewinn werden nicht separat berechnet. Es gibt keine Verbindung zu Willhaben und keinen automatischen Import.
@@ -32,8 +35,9 @@ Version 1.1 muss einmal manuell über Version 1.0 installiert werden. Die besteh
 
 ## Prüfung und Daten
 
-Version 1.3 ergänzt Bilder, eigene Verkaufsseiten und zwei Plattformdiagramme. Altbestände erhalten eine leere Verkaufsseite und keine Bildzuordnungen; vorhandene Beträge und Stückzahlen bleiben erhalten. 118 Java-Prüfungen sowie 29 SQLite-Prüfungen bestehen. APK-Signatur und unveränderter Signaturschlüssel wurden geprüft. Bildauswahl, Darstellung und Installation von 1.3 sind noch nicht auf einem Android-Gerät oder Emulator getestet. Der vom Nutzer bestätigte Update-Erkennungstest vom 23.09.2026 bezog sich auf die Vorgängerversion.
+Version 1.4 ergänzt eine private Blacklist und die Fotoaufnahme über die Kamera-App. Bestehende Verkäufe, Verkaufsseiten und Bilder bleiben erhalten. Eine Nutzerzuordnung ist optional. Umbenennen erhält die Verknüpfungen; beim Löschen eines Blacklist-Nutzers werden nur dessen Eintrag, Bilder und Nutzerzuordnungen entfernt, die Verkäufe bleiben bestehen. 136 Java- und 88 SQLite-Prüfungen bestanden. APK-Signatur und unveränderter Signaturschlüssel wurden geprüft. Kameraaufnahme, Bilddarstellung und Installation von 1.4 sind hier noch nicht auf einem Android-Gerät oder Emulator getestet.
 
 Es gibt derzeit keinen Datenexport und keine Cloud-Synchronisierung. Beim Deinstallieren oder Löschen der App-Daten gehen die gespeicherten Verkäufe und Bildkopien verloren.
 
 Dieses Repository dient zur Verteilung der fertigen App und ihrer Versionsinformationen.
+

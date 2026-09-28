@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "applicationId": "at.personal.verkaufsbuch",
-  "versionCode": 4,
-  "versionName": "1.3",
+  "versionCode": 5,
+  "versionName": "1.4",
   "minSdkVersion": 26,
-  "apkUrl": "https://github.com/nnifFlame/verkaufsbuch/releases/download/v1.3/Verkaufsbuch-Android.apk",
-  "sha256": "84d78e1194745e39c135f695b38c995b0979365e2d3f6519cf5abb13f37de053",
+  "apkUrl": "https://github.com/nnifFlame/verkaufsbuch/releases/download/v1.4/Verkaufsbuch-Android.apk",
+  "sha256": "ced452c66c2b9ec6f9866d5e4ac676632e4841d4e9e24a4c4c46a8fbc7b871c4",
   "releaseNotes": [
-    "Bis zu 10 Bilder pro Verkauf als lokale Kopien speichern, ansehen und entfernen",
-    "Eigene Verkaufsseiten anlegen und bei weiteren Verkäufen auswählen – ohne vorgegebene Anbieter",
-    "Zwei neue Jahresanalysen: Anzahl Verkäufe und Umsatz je Verkaufsseite",
-    "Vorhandene Verkäufe und Stückzahlen bleiben erhalten; Verkaufsseite nachträglich ergänzbar"
+    "Blacklist mit Benutzernamen, Problemmarkierung, Notizen und bis zu 10 Bildern",
+    "Blacklist-Nutzer optional einem Verkauf zuordnen; Hinweise direkt im Verkauf sehen",
+    "Bei Verkäufen und Blacklist zwischen Kamera und Fotobibliothek wählen",
+    "Bestehende Verkäufe, Verkaufsseiten und Bilder bleiben erhalten"
   ]
 }
